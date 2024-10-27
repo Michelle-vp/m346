@@ -1,0 +1,15 @@
+#cloud-config
+users:
+  - name: ubuntu                     # Specifies a user named 'ubuntu' to be created on the instance
+    sudo: ALL=(ALL) NOPASSWD:ALL     # Grants the 'ubuntu' user sudo privileges without needing a password
+    groups: users, admin             # Adds the 'ubuntu' user to the 'users' and 'admin' groups
+    home: /home/ubuntu               # Sets the home directory for 'ubuntu' to /home/ubuntu
+    shell: /bin/bash                 # Sets the default shell to /bin/bash
+    ssh_authorized_keys:             # Authorizes SSH access with the provided key
+      - ssh-rsa AAAAB3Nza...aws-key  # Adds a public SSH key (you would replace this with your public key)
+ssh_pwauth: false                    # Disables password authentication for SSH (only key-based auth is allowed)
+disable_root: false                  # Allows root login if needed
+package_update: true                 # Updates the package list before installing packages
+packages:
+  - curl                             # Installs curl
+  - wget                             # Installs wget
