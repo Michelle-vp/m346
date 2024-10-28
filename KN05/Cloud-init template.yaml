@@ -6,13 +6,18 @@ users:
     home: /home/ubuntu
     shell: /bin/bash
     ssh_authorized_keys:
-      - ssh-rsa  AAAAB3NzaC1yc2EAAAADAQABAAABAQCkZ6cvOLkrB8BdvNMkoqvczsZkCJeLv3TN7lL8xgI6569kBMh42UEnjr51t/TjJ6oXHzLnyLlk/M9sz7+qSNsv8F+3b7dr/6fAMxmtctb5Zs/UQdu7TqOQpgrio/ime4sliS294kv5q1LLQWHLFN7a92zSuJh3eaq2Yq0RvV8oWi0XU7SeO4NSVafRkrSVd08wkq+ccRGoiFv4iQd8ngk+zOukbWh7/jNykIcHDF8+x3JyxpKi40eTX3PVH3DmG9t7FED50dBiXO3eNY7XnMfQNI2kBgtZ3W/4UBtfhCgf/2LMiR2MpvUBIOH9UGHQTk7g65cmnBfrARtuSYgCaq8V aws-key  # my key
+      - ssh-rsa  AAAAB3NzaC1yc2EAAAADAQABAAABAQCkZ6cvOLkrB8BdvNMkoqvczsZkCJeLv3T
+        N7lL8xgI6569kBMh42UEnjr51t/TjJ6oXHzLnyLlk/M9sz7+qSNsv8F+3b7dr/6f
+        AMxmtctb5Zs/UQdu7TqOQpgrio/ime4sliS294kv5q1LLQWHLFN7a92zSuJh3eaq
+        2Yq0RvV8oWi0XU7SeO4NSVafRkrSVd08wkq+ccRGoiFv4iQd8ngk+zOukbWh7/jN
+        ykIcHDF8+x3JyxpKi40eTX3PVH3DmG9t7FED50dBiXO3eNY7XnMfQNI2kBgtZ3W/
+        4UBtfhCgf/2LMiR2MpvUBIOH9UGHQTk7g65cmnBfrARtuSYgCaq8V aws-key  # my key
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC0WGP1EZykEtv5YGC9nMiPFW3U3DmZNzKF
-O5nEu6uozEHh4jLZzPNHSrfFTuQ2GnRDSt+XbOtTLdcj26+iPNiFoFha42aCIzYj
-t6V8Z+SQ9pzF4jPPzxwXfDdkEWylgoNnZ+4MG1lNFqa8aO7F62tX0Yj5khjC0Bs7
-Mb2cHLx1XZaxJV6qSaulDuBbLYe8QUZXkMc7wmob3PM0kflfolR3LE7LResIHWa4
-j4FL6r5cQmFlDU2BDPpKMFMGUfRSFiUtaWBNXFOWHQBC2+uKmuMPYP4vJC9sBgqM
-vPN/X2KyemqdMvdKXnCfrzadHuSSJYEzD64Cve5Zl9yVvY4AqyBD
+        O5nEu6uozEHh4jLZzPNHSrfFTuQ2GnRDSt+XbOtTLdcj26+iPNiFoFha42aCIzYj
+        t6V8Z+SQ9pzF4jPPzxwXfDdkEWylgoNnZ+4MG1lNFqa8aO7F62tX0Yj5khjC0Bs7
+        Mb2cHLx1XZaxJV6qSaulDuBbLYe8QUZXkMc7wmob3PM0kflfolR3LE7LResIHWa4
+        j4FL6r5cQmFlDU2BDPpKMFMGUfRSFiUtaWBNXFOWHQBC2+uKmuMPYP4vJC9sBgqM
+        vPN/X2KyemqdMvdKXnCfrzadHuSSJYEzD64Cve5Zl9yVvY4AqyBD
  aws-key   # NUY's SSH key
 ssh_pwauth: false
 disable_root: false
